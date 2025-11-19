@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yarbrough Group — Single Screen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="frame" role="region" aria-label="Single screen experience">
+      <header class="bar">
+        <div class="signature">
+          <span class="glyph" aria-hidden="true"></span>
+          <span>Yarbrough Group</span>
+          <span class="meta-tag">Live • Secure</span>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-btn active" data-target="home">Home</button>
+          <button class="nav-btn" data-target="about">About</button>
+          <button class="nav-btn" data-target="projects">Projects</button>
+          <button class="nav-btn" data-target="contact">Contact</button>
+        </nav>
+      </header>
+
+      <main class="viewport">
+        <section class="panel active" id="home" aria-labelledby="home-title">
+          <div class="panel-body">
+            <p class="eyebrow">Jahcere Yarbrough — CyberSecurity &amp; Developer</p>
+            <h1 id="home-title">Welcome too Jahcere L. Yarbrough's Tech World</h1>
+            <p class="muted">
+              With a business oriented mindset, anything can be elevated to a higher standard.
+            </p>
+            <div class="actions">
+              <a class="pill primary" href="#projects">Work</a>
+              <a class="pill" href="#contact">Contact</a>
+            </div>
+            <div class="metrics" aria-label="signal metrics">
+              <div class="metric" data-label="latency" data-unit="ms" data-min="9" data-max="28">
+                <span class="label">Latency</span>
+                <strong class="value">14<span>ms</span></strong>
+                <span class="track"><span class="fill"></span></span>
+              </div>
+              <div class="metric" data-label="uptime" data-unit="%" data-min="99.1" data-max="100">
+                <span class="label">Uptime</span>
+                <strong class="value">99.98<span>%</span></strong>
+                <span class="track"><span class="fill"></span></span>
+              </div>
+              <div class="metric" data-label="deploys" data-unit="/wk" data-min="4" data-max="18">
+                <span class="label">Deploys</span>
+                <strong class="value">12<span>/wk</span></strong>
+                <span class="track"><span class="fill"></span></span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="about" aria-labelledby="about-title">
+          <div class="panel-body">
+            <h2 id="about-title">About</h2>
+            <div class="split">
+              <p class="muted">
+                Here to help advance our futures in every step.
+              </p>
+              <div class="stack">
+                <span class="chip">Zero Trust</span>
+                <span class="chip">Observability</span>
+                <span class="chip">Automation</span>
+              </div>
+            </div>
+            <ul class="facts">
+              <li><span>Stack</span><strong>Luaa · HTML · Java · CSS</strong></li>
+              <li><span>Focus</span><strong>Networking · Security</strong></li>
+              <li><span>Mode</span><strong>Dark, precise, intentional</strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="panel" id="projects" aria-labelledby="projects-title">
+          <div class="panel-body">
+            <h2 id="projects-title">Projects</h2>
+            <div class="grid">
+              <article>
+                <div class="badge">01</div>
+                <h3>Networking</h3>
+                <p class="muted">TBD.</p>
+              </article>
+              <article>
+                <div class="badge">02</div>
+                <h3>Game Development</h3>
+                <p class="muted">TBD.</p>
+              </article>
+              <article>
+                <div class="badge">03</div>
+                <h3>AI Models</h3>
+                <p class="muted">TBD.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel" id="contact" aria-labelledby="contact-title">
+          <div class="panel-body">
+            <h2 id="contact-title">Contact</h2>
+            <p class="muted">Available for select collaborations in Q1. No agencies.</p>
+            <div class="contact">
+              <a href="mailto:Jahcereawesome@gmail.com">Jahcereawesome@gmail.com</a>
+              <a href="https://www.linkedin.com/in/jahcere-yarbrough-7a569836a/?skipRedirect=true" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com/BigJ4h" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="foot">
+        <span>© 2025 Yarbrough Group</span>
+        <span>Philippians 4:13 †</span>
+        <span class="signal" aria-hidden="true"></span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
